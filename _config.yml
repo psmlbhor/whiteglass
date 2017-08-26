@@ -18,7 +18,7 @@ author: Pranjal Bhor
 description: An archive for the things I find worth sharing
 theme: jekyll-whiteglass
 baseurl: "/whiteglass" # the subpath of your site, e.g. /blog
-url: "https://yous.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://psmlbhor.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 lang: en
 timezone: UTC
 exclude:
