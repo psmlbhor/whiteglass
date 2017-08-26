@@ -38,4 +38,4 @@ I would like to thank The Linux Foundation for providing me with the opportunity
 [cups-filters]: https://wiki.linuxfoundation.org/openprinting/cups-filters
 [pdf_reference]: http://www.adobe.com/content/dam/Adobe/en/devnet/acrobat/pdfs/pdf_reference_1-7.pdf
 [project]: https://github.com/psmlbhor/PDF_flattening
-[diagram]: /whiteglass/_data/gsoc.png
+[diagram]: whiteglass/images/gsoc.png
