@@ -14,7 +14,7 @@ A bug report was generated [here][bug] describing the problem that [CUPS-filters
 
 CUPS-filters uses [QPDF][qpdf] internally for performing all PDF related transformations. QPDF is capable of performing linearization, encryption, decryption etc. As CUPS-filters uses this library to handle all its PDF related tasks, the support for flattening the PDFs was found missing in QPDF. Thus, the problem can be solved by adding PDF flattening support to QPDF and then CUPS-filters can easily leverage this functionality.
 
-![diagram]({{site.url}}/images/gsoc.png)
+![diagram][diagram]
 
 # How to achieve PDF flattening?
 [PDF reference][pdf_reference] in sections 8.4 and 8.6 describes how the interactive form (also called as AcroForm) represented in a PDF file and what all are the attributes associated with them. So for every page present in the PDF file, all the form fields can be traversed one by one and worked upon. There are two cases which needs to be considered while flattening a PDF which depends upon when a key named `/NeedAppearances` is set to `false` (or the key is not present) or `true`. The key basically indicates whether the PDF viewer application needs to reconstruct the apperances of the AcroForm fields.
@@ -38,4 +38,4 @@ I would like to thank The Linux Foundation for providing me with the opportunity
 [cups-filters]: https://wiki.linuxfoundation.org/openprinting/cups-filters
 [pdf_reference]: http://www.adobe.com/content/dam/Adobe/en/devnet/acrobat/pdfs/pdf_reference_1-7.pdf
 [project]: https://github.com/psmlbhor/PDF_flattening
-[diagram]: whiteglass/images/gsoc.png
+[diagram]: https://drive.google.com/open?id=0B-wSviYjd5oCQ1NvUUxGbkVIZWs
