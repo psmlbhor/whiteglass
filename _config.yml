@@ -17,7 +17,7 @@ title: Curious Rover
 author: Pranjal Bhor
 description: An archive for the things I find worth sharing
 theme: jekyll-whiteglass
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "/whiteglass" # the subpath of your site, e.g. /blog
 url: "https://yous.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 lang: en
 timezone: UTC
